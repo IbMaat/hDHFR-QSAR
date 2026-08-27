@@ -70,5 +70,4 @@ hDHFR-QSAR-AI/
 │   └── 06_local_SHAP.py
 │
 └── data/
-    ├── hDHFR_dataset_3classes.csv
-    └── hDHFR_dataset_2classes.csv
+    ├── hDHFR_curated_1016.csv
