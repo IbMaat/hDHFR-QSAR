@@ -57,17 +57,14 @@ predicted bioactivity.
 ## Repository structure
 
 ```text
-hDHFR-QSAR-AI/
+hDHFR-QSAR/
 │
-├── README.md
+├── 01_data_curation.py
+├── 02_preprocessing_EDA.py
+├── 03_fingerprint_generation.py
+├── 04_RF_QSAR_models.py
+├── 05_local_SHAP.py
 │
-├── code/
-│   ├── 01_data_collection_CHEMBL202.py
-│   ├── 02_preprocessing_EDA.py
-│   ├── 03_fingerprint_generation.py
-│   ├── 04_dataset_integration.py
-│   ├── 05_RF_QSAR_models.py
-│   └── 06_local_SHAP.py
+├── hDHFR_curated_1016.csv
 │
-└── data/
-    ├── hDHFR_curated_1016.csv
+└── README.md
